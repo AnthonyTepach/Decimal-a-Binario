@@ -1,1 +1,4 @@
 *.class
+built-jar.properties
+*.jar
+*.txt
