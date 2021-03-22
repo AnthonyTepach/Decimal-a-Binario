@@ -2,3 +2,4 @@
 built-jar.properties
 *.jar
 *.txt
+application/cache
