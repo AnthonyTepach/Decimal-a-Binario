@@ -33,9 +33,9 @@ public class Qr {
 
     public static void main(String[] args) {
         Qr R = new Qr();
-        //int a= R.getFolio("http://www.guadalajara.gob.mx");
-        //System.out.println(a);
-        System.out.println(R.toJadenCase("most trees are blue"));
+        int a= R.getFolio("http://www.guadalajara.gob.mx");
+        System.out.println(a);
+        //System.out.println(R.toJadenCase("most trees are blue"));
 
     }
 
