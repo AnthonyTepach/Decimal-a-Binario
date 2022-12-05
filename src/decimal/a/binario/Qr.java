@@ -39,14 +39,5 @@ public class Qr {
 
     }
 
-    public String toJadenCase(String phrase) {
-        String txtNew = "";
-        // TODO put your code below this comment
-        String[] space = phrase.split(" ");
-        for (int i = 0; i < space.length; i++) {
-            txtNew = txtNew + space[i].substring(0, 1).toUpperCase() + space[i].substring(1);
-           
-        }
-        return txtNew;
-    }
+ 
 }
