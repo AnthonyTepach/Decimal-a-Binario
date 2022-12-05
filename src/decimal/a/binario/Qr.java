@@ -27,7 +27,7 @@ public class Qr {
     }
 
     public int getTipo(String text) {
-        String tip = ObtieneQRBinario(text, 59, 63);
+        String tip = ObtieneQRBinario(text, (text.length()-4), text.length());
         return decimal(tip);
     }
 
